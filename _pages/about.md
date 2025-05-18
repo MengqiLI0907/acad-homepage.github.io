@@ -1,58 +1,78 @@
 ---
 permalink: /
-title: ""
-excerpt: ""
+title: "Mengqi Li"
+excerpt: "PhD-bound GIS researcher passionate about mobility resilience and urban dynamics"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
+I’m a master’s student in Geographic Information Science at the University of Zurich, and an incoming PhD student in Geography at the University at Buffalo. My research bridges **human mobility**, **urban dynamics**, and **geospatial AI**, with a special interest in **transportation resilience under extreme events**. I enjoy working with large-scale mobility data, satellite imagery, and machine learning models to understand cities from both physical and behavioral dimensions.
 
-My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My recent work focuses on quantifying multimodal mobility resilience during Hurricane Ida in NYC. I’ve also conducted research on DEM reconstruction, dengue and meteorological interactions, and urban growth via satellite imagery.
 
+> 🔗 [Google Scholar](https://scholar.google.com/citations?user=9lpYrDkAAAAJ) | [GitHub](https://github.com/MengqiLI0907) | [LinkedIn](https://www.linkedin.com/in/mengqi-li-15b3b9290/)
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2025.04*: 🎉 Submitted my MSc thesis to *Computers, Environment and Urban Systems*.
+- *2024.11*: 📢 Presented at AAG 2024 on DEM reconstruction using CGANs.
+- *2024.08*: 🛰️ Contributed to ETH’s project on 3D urban building stock evolution using Planet imagery.
+- *2024.03*: 📝 Co-authored a preprint on dengue-environment dynamics across Southeast Asia (medRxiv).
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- **Li, M.**, Dai, W., et al. (2024). *Reconstructing High-Resolution DEMs from 3D Terrain Features using Conditional GANs*. *IJAEOG*. [[DOI](https://doi.org/10.1016/j.jag.2024.104115)]
+- Qiu, R., Dai, W., Wang, G., **Li, M.**, et al. (2024). *Evaluation of deep learning methods for meteorological forecasting*. *IEEE Access*. [[DOI](https://doi.org/10.1109/ACCESS.2024.3411109)]
+- **Li, M.**, Dai, W., et al. (2023). *Check Dam Detection in the Yellow River Basin using Deep Learning and Hydrology*. *IJERPH*, 20(5), 4636. [[DOI](https://doi.org/10.3390/ijerph20054636)]
+- Chen, K., Dai, W., **Li, M.**, et al. (2023). *Topographic Skeleton for Deep Terrain Reconstruction*. *Remote Sensing*, 15(18), 4490. [[DOI](https://doi.org/10.3390/rs15184490)]
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+# 🧪 Research Projects
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+### MSc Thesis | University of Zurich
+**Transportation Diversity and Urban Mobility Resilience in NYC During Hurricane Ida**  
+Developed dynamic baseline models to assess resilience loss across multimodal systems. Quantified the impact of socio-economic and infrastructural diversity on mobility recovery.
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
+### RA | ETH Zurich – Urban Growth Unveiled  
+Used Planet-API and deep learning to map 3D building stock evolution across Chinese cities.
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+### Intern | National University of Singapore  
+Analyzed dengue–climate dynamics using Google Earth Engine and DLNM models.
 
-# 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+# 🎓 Education
 
-# 📖 Educations
-- *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- **University of Zurich**, M.S. in GIS (Sep 2023 – Jun 2025)  
+  Thesis on mobility resilience, GPA: 5.2/6 (Magna cum laude)
+
+- **NUIST**, B.S. in GIS (Sep 2019 – Jun 2023)  
+  Thesis on DEM reconstruction with CGANs, GPA: 4.025/5 (Outstanding graduate)
+
+# 🏆 Honors and Awards
+
+- Outstanding Graduate, NUIST (2023)  
+- First-Class Scholarship (2020–2023)  
+- Silver Award, Esri Cup GIS Contest (2021)  
+- Outstanding Prize in GIS Skills Contest (Top 3%)
 
 # 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
+
+- *2024.11*, AAG Annual Meeting – High-resolution DEM reconstruction via CGANs
 
 # 💻 Internships
-- *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
+
+- **Esri China**, Technical Engineer Intern – ArcGIS bid and testing (2021–2022)
+- **SRK Consulting**, Geological Intern – Map annotation and reporting (2022)
+
+# 📚 Selected Course Projects
+
+- **Chatty Map NYC**: Created a geosoundscape map using Flickr tags.
+- **Manila Happiness**: Fine-tuned LLaMA + RoBERTa for slum sentiment classification.
+
+# 💡 Skills
+
+- **Programming**: Python, R, MATLAB  
+- **Tools**: ArcGIS, QGIS, ENVI, GEE, PostgreSQL, Git, Linux  
+- **Languages**: English (IELTS 7), Mandarin, German (Beginner)
+
