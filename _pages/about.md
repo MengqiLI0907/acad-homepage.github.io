@@ -1,78 +1,87 @@
 ---
 permalink: /
-title: "Mengqi Li"
-excerpt: "PhD-bound GIS researcher passionate about mobility resilience and urban dynamics"
+title: ""
+excerpt: ""
 author_profile: true
-redirect_from:
+redirect_from: 
   - /about/
   - /about.html
 ---
 
+{% if site.google_scholar_stats_use_cdn %}
+{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
+{% else %}
+{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
+{% endif %}
+{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+
 <span class='anchor' id='about-me'></span>
 
-I’m a master’s student in Geographic Information Science at the University of Zurich, and an incoming PhD student in Geography at the University at Buffalo. My research bridges **human mobility**, **urban dynamics**, and **geospatial AI**, with a special interest in **transportation resilience under extreme events**. I enjoy working with large-scale mobility data, satellite imagery, and machine learning models to understand cities from both physical and behavioral dimensions.
+I am a master's student in Geographic Information Science at the University of Zurich and an incoming PhD student at the University at Buffalo. My research focuses on urban mobility resilience, disaster response, and spatial modeling. My recent thesis develops a framework to quantify how transportation diversity enhances human mobility resilience during Hurricane Ida in New York City. I use deep learning for baseline construction, resilience metrics, and spatial econometrics including MGWR.
 
-My recent work focuses on quantifying multimodal mobility resilience during Hurricane Ida in NYC. I’ve also conducted research on DEM reconstruction, dengue and meteorological interactions, and urban growth via satellite imagery.
+I also worked on DEM reconstruction from terrain features using GANs, dengue-meteorology modeling, and urban building growth analysis with Planet imagery.
 
-> 🔗 [Google Scholar](https://scholar.google.com/citations?user=9lpYrDkAAAAJ) | [GitHub](https://github.com/MengqiLI0907) | [LinkedIn](https://www.linkedin.com/in/mengqi-li-15b3b9290/)
+My research combines GIS, machine learning, and remote sensing to tackle real-world urban and environmental problems.
+
+You can also use the Google Scholar badge:  
+<a href='https://scholar.google.com/citations?user=9lpYrDkAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>
 
 # 🔥 News
-- *2025.04*: 🎉 Submitted my MSc thesis to *Computers, Environment and Urban Systems*.
-- *2024.11*: 📢 Presented at AAG 2024 on DEM reconstruction using CGANs.
-- *2024.08*: 🛰️ Contributed to ETH’s project on 3D urban building stock evolution using Planet imagery.
-- *2024.03*: 📝 Co-authored a preprint on dengue-environment dynamics across Southeast Asia (medRxiv).
+- *2025.04*: 🎓 Thesis submitted to *Computers, Environment and Urban Systems*
+- *2024.11*: 🛰 Presented DEM research at AAG 2024, Honolulu
+- *2023.10*: 💻 Joined ETH Zurich project on urban 3D building modeling with PlanetScope
 
-# 📝 Publications
+# 📝 Publications 
 
-- **Li, M.**, Dai, W., et al. (2024). *Reconstructing High-Resolution DEMs from 3D Terrain Features using Conditional GANs*. *IJAEOG*. [[DOI](https://doi.org/10.1016/j.jag.2024.104115)]
-- Qiu, R., Dai, W., Wang, G., **Li, M.**, et al. (2024). *Evaluation of deep learning methods for meteorological forecasting*. *IEEE Access*. [[DOI](https://doi.org/10.1109/ACCESS.2024.3411109)]
-- **Li, M.**, Dai, W., et al. (2023). *Check Dam Detection in the Yellow River Basin using Deep Learning and Hydrology*. *IJERPH*, 20(5), 4636. [[DOI](https://doi.org/10.3390/ijerph20054636)]
-- Chen, K., Dai, W., **Li, M.**, et al. (2023). *Topographic Skeleton for Deep Terrain Reconstruction*. *Remote Sensing*, 15(18), 4490. [[DOI](https://doi.org/10.3390/rs15184490)]
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CEUS (Submitted)</div><img src='/assets/images/framework_fit.png' alt="ida resilience" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-# 🧪 Research Projects
+[Quantifying the Impact of Transportation Diversity on Urban Mobility Resilience during Hurricane Ida](https://example.com)
 
-### MSc Thesis | University of Zurich
-**Transportation Diversity and Urban Mobility Resilience in NYC During Hurricane Ida**  
-Developed dynamic baseline models to assess resilience loss across multimodal systems. Quantified the impact of socio-economic and infrastructural diversity on mobility recovery.
+**Mengqi Li**, Cheng Fu, Robert Weibel
 
-### RA | ETH Zurich – Urban Growth Unveiled  
-Used Planet-API and deep learning to map 3D building stock evolution across Chinese cities.
+[**Project**](https://example.com/project-ida) <strong><span class='show_paper_citations' data='9lpYrDkAAAAJ:YsMSGLbcyi4C'></span></strong>  
+- Built dynamic baselines with Prophet forecasting to detect disruptions in subway, taxi, and bikeshare data  
+- Introduced resilience metrics (RL, RT, MDEV) to quantify mobility performance loss  
+- Applied MGWR and spatial econometrics to uncover socio-infrastructure influences  
+- Submitted to *Computers, Environment and Urban Systems* in April 2025
 
-### Intern | National University of Singapore  
-Analyzed dengue–climate dynamics using Google Earth Engine and DLNM models.
+</div>
+</div>
 
-# 🎓 Education
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJAEOG 2024</div><img src='/images/dem-gan.png' alt="dem gan" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-- **University of Zurich**, M.S. in GIS (Sep 2023 – Jun 2025)  
-  Thesis on mobility resilience, GPA: 5.2/6 (Magna cum laude)
+[Reconstructing High-Resolution DEMs from 3D Terrain Features using Conditional GANs](https://doi.org/10.1016/j.jag.2024.104115)
 
-- **NUIST**, B.S. in GIS (Sep 2019 – Jun 2023)  
-  Thesis on DEM reconstruction with CGANs, GPA: 4.025/5 (Outstanding graduate)
+**Mengqi Li**, Wei Dai, et al.
 
-# 🏆 Honors and Awards
+[**Project**](https://example.com/dem-cgan) <strong><span class='show_paper_citations' data='9lpYrDkAAAAJ:RHpTSmoSYBkC'></span></strong>  
+- Proposed a CGAN-based model to reconstruct DEMs from ridges, valleys, and contour masks  
+- Achieved 30% RMSE reduction over baseline interpolation  
+- Published in *International Journal of Applied Earth Observation and Geoinformation*
 
-- Outstanding Graduate, NUIST (2023)  
-- First-Class Scholarship (2020–2023)  
-- Silver Award, Esri Cup GIS Contest (2021)  
-- Outstanding Prize in GIS Skills Contest (Top 3%)
+</div>
+</div>
+
+- [Check Dam Detection using Deep Learning and Hydrologic Constraints](https://doi.org/10.3390/ijerph20054636), Dai, **Li**, *IJERPH*, 2023  
+- [Topographic Skeletons for Deep Terrain Learning](https://doi.org/10.3390/rs15184490), Chen, Dai, **Li**, *Remote Sensing*, 2023  
+- [Dengue–Meteorology Associations in SEA](https://www.medrxiv.org/content/10.1101/2023.12.01.23299190v1), *medRxiv*, 2023  
+
+# 🎖 Honors and Awards
+- *2023.06* Outstanding Graduate, NUIST  
+- *2022.10* First-Class Scholarship, UZH  
+- *2021.11* Esri Cup – Silver Award (National GIS Competition)  
+- *2021.08* National GIS Skills Contest – Top Prize  
+
+# 📖 Educations
+- *2023.09 – 2025.07*, MSc in Geographic Information Science, University of Zurich  
+- *2019.09 – 2023.06*, BSc in Geographic Information Science, NUIST  
 
 # 💬 Invited Talks
-
-- *2024.11*, AAG Annual Meeting – High-resolution DEM reconstruction via CGANs
+- *2024.11*, “Terrain Reconstruction with CGANs,” AAG 2024, Honolulu  
+- *2023.10*, GIS Day, UZH Department of Geography  
 
 # 💻 Internships
-
-- **Esri China**, Technical Engineer Intern – ArcGIS bid and testing (2021–2022)
-- **SRK Consulting**, Geological Intern – Map annotation and reporting (2022)
-
-# 📚 Selected Course Projects
-
-- **Chatty Map NYC**: Created a geosoundscape map using Flickr tags.
-- **Manila Happiness**: Fine-tuned LLaMA + RoBERTa for slum sentiment classification.
-
-# 💡 Skills
-
-- **Programming**: Python, R, MATLAB  
-- **Tools**: ArcGIS, QGIS, ENVI, GEE, PostgreSQL, Git, Linux  
-- **Languages**: English (IELTS 7), Mandarin, German (Beginner)
-
+- *2022.06 – 2022.09*, ETH Zurich, Remote Sensing RA  
+- *2021.06 – 2021.09*, Esri China, GIS Developer Intern
